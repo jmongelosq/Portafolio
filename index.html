@@ -42,7 +42,7 @@
       <div class="hero-grid">
         <div class="hero-text">
           <h2>Hola, soy <span class="accent">José Mongelós Quiroga</span></h2>
-          <p class="lead"><strong>Estudiante / Desarrollador — Hardware, Software, IA, Robótica y Gamificación.</strong></p>
+          <p class="lead"><strong>Estudiante / Desarrollador — Hardware, Software, IA, robótica y gamificación.</strong></p>
           <p class="justificado">
             Entre mis proyectos destacan aplicaciones web (e-commerce con carrito y autenticación), aplicaciones de escritorio/móvil con Java y Python,
             y proyectos colaborativos en hackathons. Todo el código y documentación está en mi GitHub.
@@ -160,9 +160,9 @@
     </div>
   </footer>
 
-  <!-- SCRIPTS -->
+ 
   <script>
-    /* Datos de proyectos (modifica según necesites) */
+    
     const proyectos = [
       { nombre: "App Clima", descripcion: "Consulta el clima en tu ciudad.", imagen: "imagenes/clima.png", enlace: "#" },
       { nombre: "Robótica Educativa", descripcion: "Brazo robótico controlado desde web.", imagen: "imagenes/robotica.png", enlace: "#" },
@@ -204,7 +204,7 @@
         nav.classList.toggle('open');
       });
 
-      // smooth scroll para enlaces del nav
+      
       document.querySelectorAll('#primary-nav a[data-link]').forEach(a => {
         a.addEventListener('click', (e) => {
           e.preventDefault();
@@ -263,7 +263,7 @@
         }
         msg.style.color = "var(--accent)";
         msg.textContent = "Enviando...";
-        // Aquí puedes reemplazar por un fetch() real a tu backend o servicio (Formspree, Netlify, etc.)
+        
         setTimeout(()=>{
           msg.textContent = "Mensaje enviado correctamente. ¡Gracias!";
           form.reset();
